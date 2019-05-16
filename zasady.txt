@@ -1,0 +1,22 @@
+Język cpp
+Nazwy po angielsku,
+Tabulacja zamiast spacji
+Nazwy klas z dużych liter
+Nazwy klas według crc cards
+Nazwy typów wyliczeniowych (enum) powinny przestrzegać tej samej konwencji nazewniczej co klasy, natomiast składniki tych typów powinny przestrzegać tej samej konwencji nazewniczej co stałe.
+Każde celowo puste ciało pętli, funkcji etc. powinno być odpowiednio oznaczone.
+Zmienna będzie inicjalizowana w miejscu deklaracji, o ile istnieje dla niej rozsądna wartość początkowa.
+Zmienne globalne nie powinny być definiowane.
+Każda deklaracja funkcji, metody itp. powinna zawierać nie tylko typy, ale także nazwy parametrów.
+Pętle i instrukcje warunkowe.
+W porównaniu zmiennej ze stałą za pomocą operatora '==' stała powinna znajdować się po lewej strone porównania, a zmienna po prawej.
+Każda pętla lub intstrukcja warunkowa powinna dotyczyła bloku pomiędzy dwoma klamrami ({ i }).
+Elementy języka.
+W C++ instrukcja goto nie powinna być używana.
+Stałe powinny być definiowane za pomocą słowa kluczowego const zamiast #define.
+Typ std::string powinien być wykorzystywany do przechowywania i przetwarzania napisów zamiast char*.
+Klasy i obiekty.
+Każda klasa powinna mieć swój własny plik nagłówkowy oraz własny plik źródłowy (jesli to konieczne). Pliki te będą nazwane nazwą klasy z odpowiednim rozszerzeniem.
+Deklaracja klasy będzie zawierać pojedyncze bloki deklaracji public, protected i private. W deklaracji klasy będą wypisane w pierwszej kolejności składniki publiczne, następnie chronione, a na końcu prywatne.
+Każdy konstruktor klasy, który przyjmuje jeden argument, lub którego wszystkie argumenty poza pierwszym mają wartości domyślne, powinien być zadeklarowany za pomocą słowa kluczowego explicit.
+Wszystkie pola klas powinny być zadeklarowane jako prywatne (private).
