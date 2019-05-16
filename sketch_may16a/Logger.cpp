@@ -21,17 +21,3 @@ public:
 		cout << "Date: " << dt << "Message: " << message << endl;
 	}
 };
-
-int main() {
-
-	// Declare an object of class geeks 
-	Logger obj1;
-
-	// accessing data member 
-	
-
-	// accessing member function 
-	obj1.printLog("elo");
-	return 0;
-}
-
